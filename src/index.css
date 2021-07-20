@@ -41,4 +41,19 @@ body {
   }
 }
 
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+}
 
+
+
+
+.min-height-500 {
+  min-height: 500px;
+}
