@@ -25,12 +25,12 @@ export default function Header() {
                 </div>
                 <div className="col-span-3 text-lg font-semibold text-right mr-3 hidden xl:block">
                     <NavLink exact to="/" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-yellow-100 relative" activeClassName="custom-underline">Home</NavLink>
-                    <NavLink to="/aboutme" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-yellow-100">About me</NavLink>
-                    <NavLink to="/techstack" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-green-100">Tech Stack</NavLink>
+                    <NavLink to="/aboutme" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-yellow-100 relative" activeClassName="custom-underline">About me</NavLink>
+                    <NavLink to="/techstack" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-green-100 relative" activeClassName="custom-underline">Tech Stack</NavLink>
                     <NavLink to="/projects" className="mx-5 py-4 px-5 rounded border-4 border-transparent hover:border-green-100 relative" activeClassName="custom-underline">Projects</NavLink>
-                    <a className="mx-5 py-4 px-6 rounded border-4 border-transparent hover:border-green-100">Contact</a>
+                    <a href="#contact" className="mx-5 py-4 px-6 rounded border-4 border-transparent hover:border-green-100">Contact</a>
                 </div>
-                <div onClick={toggleNav} className="col-span-2">
+                <div onClick={toggleNav} className="col-span-2 lg:col-span-3 xl:hidden">
                     <div className="float-right mr-4">
                     <div className="hamburger-icon"></div>
                     <div className="hamburger-icon"></div>
@@ -38,12 +38,14 @@ export default function Header() {
                     </div>
                 </div>
                 <div className={"col-span-4 font-semibold mx-3 " + displayNav}>
-                    <NavLink exact to="/" className="py-4 rounded border-4 border-transparent hover:border-yellow-100 relative block w-max" activeClassName="custom-underline">Home</NavLink>
-                    <NavLink to="/aboutme" className="py-4 rounded border-4 border-transparent hover:border-yellow-100 block w-max">About me</NavLink>
-                    <NavLink to="/techstack" className="py-4 rounded border-4 border-transparent hover:border-green-100 block w-max">Tech Stack</NavLink>
-                    <NavLink to="/projects" className="py-4 rounded border-4 border-transparent hover:border-green-100 relative block w-max" activeClassName="custom-underline">Projects</NavLink>
-                    <a className="py-4 rounded border-4 border-transparent hover:border-green-100 block">Contact</a>
-                    <button className="block border-4 border-transparent" onClick={toggleNav}>Close</button>
+                    <div className="my-6">
+                        <NavLink onClick={toggleNav} exact to="/" className="py-5 rounded border-4 border-transparent hover:border-yellow-100 relative block w-max m-auto" activeClassName="custom-underline">Home</NavLink>
+                        <NavLink onClick={toggleNav} to="/aboutme" className="py-5 rounded border-4 border-transparent hover:border-yellow-100 block w-max m-auto">About me</NavLink>
+                        <NavLink onClick={toggleNav} to="/techstack" className="py-5 rounded border-4 border-transparent hover:border-green-100 block w-max m-auto">Tech Stack</NavLink>
+                        <NavLink onClick={toggleNav} to="/projects" className="py-5 rounded border-4 border-transparent hover:border-green-100 relative block w-max m-auto" activeClassName="custom-underline">Projects</NavLink>
+                        <a href="#contact" onClick={toggleNav} className="py-5 rounded border-4 border-transparent hover:border-green-100 block text-center">Contact</a>
+                        <button className="block border-4 border-transparent font-semibold py-12 m-auto" onClick={toggleNav}>Close</button>
+                    </div>
                 </div>
             </nav>
         </header>
