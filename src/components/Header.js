@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import {NavLink,Link } from 'react-router-dom'
+import { MdComputer } from "react-icons/md"
 
 export default function Header() {
     const [displayNav, setDisplayNav] = useState("hidden");
@@ -20,7 +21,7 @@ export default function Header() {
                 <div className="col-span-2 lg:col-span-1">
                 <h2 className="text-3xl ml-3">
                     <span className="font-extrabold text-4xl">David</span> <span>Lidebrandt</span>
-                    <p className="text-sm">SOFTWARE DEVELOPER</p>
+                    <p className="text-sm">SOFTWARE DEVELOPER <MdComputer className="inline"/></p>
                 </h2>
                 </div>
                 <div className="col-span-3 text-lg font-semibold text-right mr-3 hidden xl:block">

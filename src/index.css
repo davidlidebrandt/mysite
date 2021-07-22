@@ -68,6 +68,10 @@ body {
   min-height: 500px;
 }
 
+.min-height-700 {
+  min-height: 700px;
+}
+
 .hamburger-icon {
   background-color: black;
   margin-bottom: 0.125rem;
