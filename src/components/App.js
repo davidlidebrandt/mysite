@@ -13,10 +13,10 @@ function App() {
 
   document.addEventListener("scroll", function() {
     
-      if (document.querySelector(".message-div").getBoundingClientRect().top >= 0 || 
+      if ((document.querySelector(".message-div") != null) && (document.querySelector(".message-div").getBoundingClientRect().top >= 0 || 
       document.querySelector(".message-div").getBoundingClientRect().left >= 0 ||
       document.querySelector(".message-div").getBoundingClientRect().bottom <= window.innerHeight ||
-       document.querySelector(".message-div").getBoundingClientRect().right <= window.innerWidth) {
+       document.querySelector(".message-div").getBoundingClientRect().right <= window.innerWidth)) {
         document.querySelector(".message-div").classList.add("message-animation")
     }
    
