@@ -1,7 +1,9 @@
 import React from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
+
     return (
         <div className="grid grid-cols-3 text-center text-xl font-bold">
             <div className="col-span-3  py-8 px-16 m-auto mt-20 bg-white rounded shadow-2xl">
@@ -19,17 +21,17 @@ export default function Home() {
                 <h4 className="text-2xl">Projects</h4>
                 <Link to="/projects" className="inline-block border-4 border-green-200 bg-green-200 rounded-lg py-4 px-8 font-semibold hover:bg-white hover:border-green-200 hover:text-green-200 shadow-xl">Read More</Link>
             </div> 
-            <div className="col-start-2 mb-36 bg-white min-height-700 rounded py-4 bg-green-100 opacity-90" style={{clipPath: "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)"}}>
+            <div className="message-div col-start-2 mb-36 bg-white min-height-700 rounded py-4" style={{clipPath: "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)"}}>
                 <h4 className="text-2xl font-bold mb-3">Want to get in touch?</h4>
                 <p className="text-lg font-semibold mb-5">Send me a message below</p>
                 <form>
                     <div className="my-3 mx-4">
                         <label className="text-lg font-semibold text-left block">Enter your email</label>
-                        <input className="block m-auto w-full rounded shadow-xl" type="email" required></input>
+                        <input className="block m-auto w-full rounded shadow-xl border" type="email" required></input>
                     </div>
                     <div className="my-3 mx-4">
                         <label className="text-lg font-semibold text-left block">Write your message</label>
-                        <textarea className="rounded block m-auto w-full h-48 resize-none shadow-2xl"></textarea>
+                        <textarea className="rounded block m-auto w-full h-48 resize-none shadow-xl border"></textarea>
                     </div>
                     <button className="inline-block my-4 border-4 border-green-200 bg-green-200 rounded-lg py-3 px-6 font-semibold hover:bg-white hover:border-green-200 hover:text-green-200 shadow-xl">Send</button>
              

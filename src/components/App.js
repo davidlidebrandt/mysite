@@ -4,10 +4,27 @@ import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
 import Teach from "./Teach";
+import { useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
-  return (
+ 
+  useEffect(() => {
+
+  document.addEventListener("scroll", function() {
+    
+      if (document.querySelector(".message-div").getBoundingClientRect().top >= 0 || 
+      document.querySelector(".message-div").getBoundingClientRect().left >= 0 ||
+      document.querySelector(".message-div").getBoundingClientRect().bottom <= window.innerHeight ||
+       document.querySelector(".message-div").getBoundingClientRect().right <= window.innerWidth) {
+        document.querySelector(".message-div").classList.add("message-animation")
+    }
+   
+  
+  })
+ }, [])
+  
+ return (
     <div className="App">
       <BrowserRouter>
       <Header></Header>  

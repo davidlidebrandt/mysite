@@ -85,3 +85,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.message-animation {
+  animation: message-anm 3s both;
+}
+
+@keyframes message-anm {
+  from{
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
