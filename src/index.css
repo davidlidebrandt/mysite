@@ -10,6 +10,8 @@ body {
 
 .type-writer-text {
   font-family: 'Ubuntu Mono', monospace;
+  font-family: 'B612 Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   position: relative;
   width: max-content;
   font-size: 2rem;
