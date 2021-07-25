@@ -59,13 +59,12 @@ body {
 
 .center-absolute {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
-.min-height-500 {
-  min-height: 500px;
+.min-height-600 {
+  min-height: 600px;
 }
 
 .min-height-700 {

@@ -47,24 +47,24 @@ export default function Home() {
           Continue reading
         </Link>
       </div>
-      <div className="w-3/4 bg-white my-36 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="w-3/4 bg-white my-36 m-auto py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Tech I have used</h4>
-        <h6 className="my-3 text-xl text-darker-green font-black underline">Languages:</h6>
-        <div className="grid grid-cols-3 mx-5">
-        <div className="m-auto my-3">JavaScript <SiJavascript className="inline"/> </div>
-        <div className="m-auto my-3">Python <SiPython className="inline"/> </div>
-        <div className="m-auto my-3">HTML <SiHtml5 className="inline"/> </div>
-        <div className="m-auto my-3">CSS <SiCss3 className="inline"/> </div>
-        <div className="m-auto my-3">Java <SiJava className="inline"/> </div>
+        
+        <div className="grid grid-cols-3 mx-4">
+        <div className="m-auto my-3 mx-3"><SiJavascript size="25" className="m-auto"/>  JavaScript</div>
+        <div className="m-auto my-3 mx-3"> <SiPython size="25" className="m-auto"/>Python </div>
+        <div className="m-auto my-3 mx-3"><SiHtml5 size="25" className="m-auto"/>HTML  </div>
+        <div className="m-auto my-3 mx-3"><SiCss3 size="25" className="m-auto"/>CSS </div>
+        <div className="m-auto my-3 mx-3"><SiJava size="25" className="m-auto"/>Java </div>
         </div>
-        <h6 className="my-3 text-xl text-darker-green font-black underline">Frameworks & Libraries:</h6>
-        <div className="grid grid-cols-3 mx-5">
-        <div className="m-auto my-3">React <SiReact className="inline"/> </div>
-        <div className="m-auto my-3">Flask <SiFlask className="inline"/> </div>
-        <div className="m-auto my-3">Django <SiDjango className="inline"/> </div>
-        <div className="m-auto my-3">Tailwind CSS <SiTailwindcss className="inline"/> </div>
-        <div className="m-auto my-3">JQuery <SiJquery className="inline"/> </div>
-        <div className="m-auto my-3">Bootstrap <SiBootstrap className="inline"/> </div>
+        
+        <div className="grid grid-cols-3 mx-4">
+        <div className="m-auto my-3"><SiReact size="25" className="m-auto"/>React </div>
+        <div className="m-auto my-3"><SiFlask size="25" className="m-auto"/>Flask </div>
+        <div className="m-auto my-3"><SiDjango size="25" className="m-auto"/>Django </div>
+        <div className="m-auto my-3"><SiTailwindcss size="25" className="m-auto"/>Tailwind CSS </div>
+        <div className="m-auto my-3"><SiJquery size="25" className="m-auto"/>JQuery </div>
+        <div className="m-auto my-3"><SiBootstrap size="25" className="m-auto"/>Bootstrap </div>
         </div>
         <Link
           to="/techstack"
