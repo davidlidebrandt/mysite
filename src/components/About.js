@@ -12,7 +12,7 @@ export default function About() {
         <h2 className="type-writer-text-14">Get to know me</h2>
         </div>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform -rotate-3 py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform -rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             My Story <GoPerson className="inline ml-2" />
@@ -20,7 +20,7 @@ export default function About() {
           <hr className="border-t-8 border-darker-green mt-2"></hr>
         </div>
         <p className="px-4 my-3">
-            ...The course lasted for nine months and was both 
+            ...The course at Code Institute lasted for nine months and was both 
             challenging and really rewarding, it gave me the tools needed to create, debug and deploy applications on the web and a good basic understanding of 
             many general concepts within the world of programming and software development.
         </p>
@@ -35,7 +35,7 @@ export default function About() {
             Next.js for the fronted and Strapi for the backend for my next project.
         </p>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             Education <FaBookReader className="inline ml-2" />
@@ -48,7 +48,7 @@ export default function About() {
           alt="Project screenshot"
         ></img>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform rotate-3 py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             When I'm Not Coding <FaDumbbell className="inline ml-2" />{" "}

@@ -27,8 +27,9 @@ function App() {
  return (
     <div className="App">
       <BrowserRouter>
-      <Header></Header>  
-      <div className="bg-image min-h-screen">  
+      <Header></Header> 
+       
+      <div className="bg-image min-h-screen px-10">  
       <Switch>
         <Route path="/" exact>
           <Home></Home>

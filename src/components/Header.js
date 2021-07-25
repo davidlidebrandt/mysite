@@ -23,7 +23,7 @@ export default function Header() {
             <span className="text-4xl font-extrabold">David</span>{" "}
             <span className="font-semibold">Lidebrandt</span>
             <p className="text-sm">
-              SOFTWARE DEVELOPER <MdComputer className="inline" />
+             <span className="text-darker-green font-extrabold">SOFTWARE DEVELOPER </span><MdComputer className="inline" />
             </p>
           </h2>
         </div>
@@ -48,7 +48,7 @@ export default function Header() {
             className="mx-5 py-4 px-5 rounded border-4 border-transparent relative"
             activeClassName="custom-underline"
           >
-            Tech Stack
+            Technologies
           </NavLink>
           <NavLink
             to="/projects"

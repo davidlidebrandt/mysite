@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-  background: url("./images/rm218batch5-katie-18.jpg");
+ 
   font-family: 'Ubuntu', sans-serif;
   font-family: 'Nunito', sans-serif;
+}
+
+.bg-image {
+  background: url("./images/rm218batch5-katie-18.jpg");
 }
 
 

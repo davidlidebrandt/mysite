@@ -28,7 +28,7 @@ export default function Teach() {
         <h2 className="type-writer-text-23">Tech I have worked with</h2>
         </div>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform -rotate-3 rounded min-height-700 relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform -rotate-3 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Languages</h4>
         <div className="center-absolute top-4 z-50 font-semibold">
           <p className="text-xl my-8">
@@ -55,7 +55,7 @@ export default function Teach() {
           }}
         ></div>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto rounded min-height-700 relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Frameworks</h4>
         <div className="center-absolute top-4 z-50 font-semibold">
           <p className="text-xl my-8">
@@ -79,7 +79,7 @@ export default function Teach() {
         </div>
         <div className="absolute bg-medium-green w-full bottom-0 z-20 h-2/3"></div>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform rotate-3 rounded min-height-700 relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl my-4 font-extrabold">Other</h4>
         <div className="center-absolute top-4 z-50 font-semibold">
           <p className="text-xl my-8">

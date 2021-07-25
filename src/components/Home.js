@@ -1,6 +1,26 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import {
+    SiPython,
+    SiReact,
+    SiJava,
+    SiJavascript,
+    SiFlask,
+    SiDjango,
+    SiHtml5,
+    SiCss3,
+    SiBootstrap,
+    SiTailwindcss,
+    SiJquery,
+    SiGithub,
+    SiGit,
+    SiVisualstudiocode,
+    SiHeroku,
+    SiGitpod,
+    SiStripe,
+    SiAdobexd,
+  } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -10,33 +30,50 @@ export default function Home() {
             <h2 className="type-writer-text-18">Welcome to my site</h2>
         </div>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform -rotate-3 py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform -rotate-3 py-4 rounded  transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl font-extrabold">About Me</h4>
-        <p className="px-4 mt-4 mb-3">A newly graduated full stack software developer who is looking to take the step into a professional setting and continuing learning and contribute to 
+        <p className="px-4 mt-4 mb-3">Hi I'm a newly graduated full stack software developer who is looking to take the step into a professional setting and continuing learning and contribute to 
               become a valuable asset in the industry.
         </p>
         <p className="px-4 my-3">
-            A few years back I started conducting self-study in basic programming concepts primarily in the programming language Java. In the summer 2020 I decided
-            to really aim at a career in software development and found Code Institute's Fullstack Software Development course. It was the perfect match since I could 
-            combine it with my fulltime work as a process operator at a large player in the semiconductor industry. 
+            A few years back I started conducting self-study in basic programming concepts primarily in the programming language Java. In the summer of 2020 I decided
+            to take a real aim at a career in software development and found Code Institute's Fullstack Software Development course. It was the perfect match since I could 
+            combine it with my fulltime work as a process operator at a large company in the semiconductor industry. 
         </p>
         <Link
           to="/aboutme"
-          className="inline-block border-4 border-transparent my-5 bg-darker-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-darker-green shadow-xl"
+          className="inline-block border-4 border-transparent my-8 bg-darker-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-darker-green shadow-xl"
         >
           Continue reading
         </Link>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-        <h4 className="text-2xl font-extrabold">Tech Stack</h4>
+      <div className="w-3/4 bg-white my-36 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+        <h4 className="text-2xl font-extrabold">Tech I have used</h4>
+        <h6 className="my-3 text-xl text-darker-green font-black underline">Languages:</h6>
+        <div className="grid grid-cols-3 mx-5">
+        <div className="m-auto my-3">JavaScript <SiJavascript className="inline"/> </div>
+        <div className="m-auto my-3">Python <SiPython className="inline"/> </div>
+        <div className="m-auto my-3">HTML <SiHtml5 className="inline"/> </div>
+        <div className="m-auto my-3">CSS <SiCss3 className="inline"/> </div>
+        <div className="m-auto my-3">Java <SiJava className="inline"/> </div>
+        </div>
+        <h6 className="my-3 text-xl text-darker-green font-black underline">Frameworks & Libraries:</h6>
+        <div className="grid grid-cols-3 mx-5">
+        <div className="m-auto my-3">React <SiReact className="inline"/> </div>
+        <div className="m-auto my-3">Flask <SiFlask className="inline"/> </div>
+        <div className="m-auto my-3">Django <SiDjango className="inline"/> </div>
+        <div className="m-auto my-3">Tailwind CSS <SiTailwindcss className="inline"/> </div>
+        <div className="m-auto my-3">JQuery <SiJquery className="inline"/> </div>
+        <div className="m-auto my-3">Bootstrap <SiBootstrap className="inline"/> </div>
+        </div>
         <Link
           to="/techstack"
-          className="inline-block border-4 border-transparent bg-medium-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-medium-green shadow-xl"
+          className="inline-block border-4 border-transparent my-8 bg-medium-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-medium-green shadow-xl"
         >
-          Read More
+          See More
         </Link>
       </div>
-      <div className="w-2/3 bg-white my-36 m-auto transform rotate-3 py-4 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl font-extrabold">Projects</h4>
         <Link
           to="/projects"
@@ -56,10 +93,10 @@ export default function Home() {
           <h4 className="text-3xl font-extrabold mb-3">
             Want to get in touch?
           </h4>
-          <p className="text-xl font-bold mb-5">Send me a message below</p>
+          <p className="text-xl font-extrabold mb-5">Send me a message below</p>
           <form>
             <div className="my-3 mx-4">
-              <label className="text-lg font-semibold text-left block">
+              <label className="text-lg font-bold text-left block">
                 Enter your email
               </label>
               <input
@@ -69,14 +106,16 @@ export default function Home() {
               ></input>
             </div>
             <div className="my-3 mx-4">
-              <label className="text-lg font-semibold text-left block">
+              <label className="text-lg font-bold text-left block">
                 Write your message
               </label>
               <textarea className="rounded block m-auto w-full h-48 resize-none border-2 border-gray-200 focus:ring-2 focus:ring-yellow-200 focus:outline-none"></textarea>
             </div>
-            <button className="my-4  no-bg-gradient green-gradient rounded-lg py-3 px-6 font-bold hover:border-2 hover-medium-green shadow-xl">
+            <div className="my-8 pt-8 relative ">
+            <button className="no-bg-gradient green-gradient rounded-lg py-3 px-6 font-bold hover-medium-green shadow-xl center-absolute">
               Send
             </button>
+            </div>
           </form>
         </div>
       </div>
