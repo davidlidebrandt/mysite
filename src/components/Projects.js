@@ -7,8 +7,10 @@ import game from "../images/project-images/game.png"
 export default function Projects() {
     return (
       <div className="grid grid-cols-3 font-bold text-center">
-        <div className="col-span-3  py-8 px-16 m-auto mt-20 bg-white rounded shadow-2xl">
-          <h2 className="type-writer-text">Some of my projects</h2>
+        <div className="col-span-3  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
+        <div className="bg-white py-8 px-20">
+        <h2 className="type-writer-text-19">Some of my projects</h2>
+        </div>
         </div>
         <div className="w-2/3 bg-white my-36 text-lg m-auto transform -rotate-3 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
           <h4 className="text-2xl py-4 bg-darker-green font-extrabold shadow-inner">

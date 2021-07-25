@@ -118,6 +118,7 @@ body {
 .hover-medium-green:hover {
   border-color: #c2ed73;
   color: #c2ed73;
+  border-width: 4px;
 }
 
 .hover-darker-green:hover {
@@ -132,7 +133,11 @@ body {
 
 /* Animations */
 
-.type-writer-text {
+.type-writer-text-14,
+.type-writer-text-18,
+.type-writer-text-19,
+.type-writer-text-23
+ {
   font-family: 'Ubuntu Mono', monospace;
   font-family: 'B612 Mono', monospace;
   font-family: 'Roboto Mono', monospace;
@@ -141,8 +146,14 @@ body {
   font-size: 2rem;
 }
 
-.type-writer-text::before,
-.type-writer-text::after {
+.type-writer-text-14::before,
+.type-writer-text-14::after,
+.type-writer-text-18::before,
+.type-writer-text-18::after,
+.type-writer-text-19::before,
+.type-writer-text-19::after,
+.type-writer-text-23::before,
+.type-writer-text-23::after {
   content: "";
   position: absolute;
   top: 0;
@@ -151,15 +162,48 @@ body {
   right: 0;
 }
 
-.type-writer-text::before {
+.type-writer-text-14::before {
+  background: white;
+  animation: type-writer-anm 3s steps(14) forwards;
+}
+
+.type-writer-text-14::after {
+  width: 0.125em;
+  background-color: black;
+  animation: type-writer-anm 3s steps(14) forwards;
+}
+
+.type-writer-text-18::before {
   background: white;
   animation: type-writer-anm 3s steps(18) forwards;
 }
 
-.type-writer-text::after {
+.type-writer-text-18::after {
   width: 0.125em;
   background-color: black;
   animation: type-writer-anm 3s steps(18) forwards;
+}
+
+.type-writer-text-19::before {
+  background: white;
+  animation: type-writer-anm 3s steps(19) forwards;
+}
+
+.type-writer-text-19::after {
+  width: 0.125em;
+  background-color: black;
+  animation: type-writer-anm 3s steps(19) forwards;
+}
+
+.type-writer-text-23::before {
+  background: white;
+  animation: type-writer-anm 3s steps(23) forwards;
+}
+
+.type-writer-text-23::after {
+  width: 0.125em;
+  background-color: black;
+  animation: type-writer-anm 3s steps(23) forwards;
 }
 
 @keyframes type-writer-anm {
