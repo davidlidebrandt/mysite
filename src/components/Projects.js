@@ -6,22 +6,101 @@ import game from "../images/project-images/game.png"
 
 export default function Projects() {
     return (
-        <div className="grid grid-cols-3 font-bold text-center">
-            <div className="col-span-3  py-8 px-16 m-auto mt-20 bg-white rounded shadow-2xl">
-                <h2 className="type-writer-text">Some of my projects</h2>
-            </div>
-            <div className="w-2/3 bg-white my-36 m-auto transform -rotate-3 rounded min-height-500 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-                <h4 className="text-2xl py-4 bg-yellow-100 font-extrabold">Fitness Equipment</h4>
-                <img className="w-full rounded m-auto p-5" src={fitness} alt="Project screenshot"></img>
-            </div>
-            <div className="w-2/3 bg-white my-36 m-auto rounded min-height-500 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-                <h4 className="text-2xl py-4 bg-green-100 font-extrabold">Movie Ratings And Reviews</h4>
-                <img className="w-full rounded m-auto p-5" src={movie} alt="Project screenshot"></img>
-            </div>
-            <div className="w-2/3 bg-white my-36 m-auto transform rotate-3 rounded min-height-500 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-                <h4 className="text-2xl py-4 bg-green-200 font-extrabold">Find The Pairs</h4>
-                <img className="w-full rounded m-auto p-5" src={game} alt="Project screenshot"></img>
-            </div>
+      <div className="grid grid-cols-3 font-bold text-center">
+        <div className="col-span-3  py-8 px-16 m-auto mt-20 bg-white rounded shadow-2xl">
+          <h2 className="type-writer-text">Some of my projects</h2>
         </div>
-    )
+        <div className="w-2/3 bg-white my-36 text-lg m-auto transform -rotate-3 rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+          <h4 className="text-2xl py-4 bg-darker-green font-extrabold shadow-inner">
+            Fitness Equipment
+          </h4>
+          <img
+            className="w-full rounded m-auto p-5"
+            src={fitness}
+            alt="Project screenshot"
+          ></img>
+          <p className="py-4 px-3">
+            <span className="font-extrabold">Fitness Equipment –</span> A site
+            for a fictional company that sells fitness equipment.
+          </p>
+          <h5 className="font-extrabold text-xl px-3">Main Technologies:</h5>
+          <p className="pb-4 px-3">
+            Django, Python, HTML, CSS, JavaScript, PostgreSQL, Stripe, JQuery,
+            Bootstrap.
+          </p>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://fitness-equipment.herokuapp.com/"
+          >
+            Link to live site
+          </a>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://github.com/davidlidebrandt/milestone-project-4"
+          >
+            Github repo
+          </a>
+        </div>
+        <div className="w-2/3 bg-white my-36 m-auto text-lg rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+          <h4 className="text-2xl py-4 bg-medium-green font-extrabold shadow-inner">
+            Movie Ratings And Reviews
+          </h4>
+          <img
+            className="w-full rounded m-auto p-5"
+            src={movie}
+            alt="Project screenshot"
+          ></img>
+          <p className="py-4 px-3">
+            <span className="font-extrabold">Movie R&R –</span> A site for
+            reading and adding reviews and ratings for movies.
+          </p>
+          <h5 className="font-extrabold text-xl px-3">Main Technologies:</h5>
+          <p className="pb-4 px-3">
+            Python, Flask, HTML, CSS, JavaScript, MongoDB, JQuery, Bootstrap.
+          </p>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://movie-r-and-r.herokuapp.com/"
+          >
+            Link to live site
+          </a>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://github.com/davidlidebrandt/milestone-project-3"
+          >
+            Github repo
+          </a>
+        </div>
+        <div className="w-2/3 bg-white my-36 m-auto transform rotate-3 text-lg rounded min-height-700 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+          <h4 className="text-2xl py-4 bg-light-green font-extrabold shadow-inner">
+            Find The Pairs
+          </h4>
+          <img
+            className="w-full rounded m-auto p-5"
+            src={game}
+            alt="Project screenshot"
+          ></img>
+          <p className="py-4 px-3">
+            <span className="font-extrabold">Find The Pairs –</span> A game
+            where you are tasked to find matching pairs of cards.
+          </p>
+          <h5 className="font-extrabold text-xl px-3">Main Technologies:</h5>
+          <p className="pb-4 px-3">
+            HTML, CSS, JavaScript, JQuery, Bootstrap, Firebase Cloud Firestore.
+          </p>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://github.com/davidlidebrandt/milestone-project-2"
+          >
+            Link to live site
+          </a>
+          <a
+            className="block underline text-darker-green py-4 px-3 transform hover:scale-110 transition-all duration-700"
+            href="https://github.com/davidlidebrandt/milestone-project-2"
+          >
+            Github repo
+          </a>
+        </div>
+      </div>
+    );
 }
