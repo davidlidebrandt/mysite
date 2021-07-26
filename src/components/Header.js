@@ -18,7 +18,8 @@ export default function Header() {
   return (
     <header className="bg-white grid grid-cols-1 items-center py-10 shadow-xl">
       <nav id="main-nav" className="grid grid-cols-4 items-center">
-        <div className="col-span-2 lg:col-span-1">
+        <NavLink  exact
+            to="/" className="block col-span-2 lg:col-span-1">
           <h2 className="text-3xl ml-3">
             <span className="text-4xl font-extrabold">David</span>{" "}
             <span className="font-semibold">Lidebrandt</span>
@@ -26,7 +27,7 @@ export default function Header() {
              <span className="text-darker-green font-extrabold">SOFTWARE DEVELOPER </span><MdComputer className="inline" />
             </p>
           </h2>
-        </div>
+        </NavLink>
         <div className="col-span-3 text-lg font-bold text-right mr-3 hidden xl:block">
           <NavLink
             exact
@@ -107,7 +108,7 @@ export default function Header() {
               Projects
             </NavLink>
             <a
-              href=".message-div"
+              href="#contact"
               onClick={toggleNav}
               className="my-4 py-4 px-5 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block text-center"
             >

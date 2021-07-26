@@ -93,7 +93,7 @@ export default function Home() {
         </Link>
       </div>
       <div
-        className="message-div col-span-12 xl:col-span-6 xl:col-start-4 my-36 bg-white min-height-700 rounded"
+        className="message-div col-span-12 w-3/4 xl:col-span-6 xl:col-start-4 xl:w-full m-auto  my-36 bg-white min-height-700 rounded"
         style={{
           clipPath:
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",
