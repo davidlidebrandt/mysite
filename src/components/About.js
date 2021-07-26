@@ -8,11 +8,11 @@ export default function About() {
   return (
     <div className="grid grid-cols-12  text-center text-xl font-bold">
       <div className="col-span-12  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
-        <div className="bg-white py-8 px-20">
+        <div className="bg-white py-8 px-16">
           <h2 className="type-writer-text-14">Get to know me</h2>
         </div>
       </div>
-      <div className="col-span-12 xl:col-span-4 w-3/4 bg-white mt-36 mb-0 xl:mb-36 m-auto transform -rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="col-span-12 xl:col-span-4 w-full xl:w-3/4 bg-white mt-36 mb-0 xl:mb-36 m-auto transform -rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             My Story <GoPerson className="inline ml-2" />
@@ -45,7 +45,7 @@ export default function About() {
         </p>
       </div>
       <div className="col-span-12 xl:col-span-4">
-        <div className="w-3/4 bg-white mt-36 mb-0 xl:mb-36 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="w-full bg-white mt-36 mb-0 xl:mb-36 xl:w-3/4 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             Education <FaBookReader className="inline ml-2" />
@@ -53,14 +53,16 @@ export default function About() {
           <hr className="border-t-8 border-medium-green mt-2"></hr>
         </div>
         <img
-          className="rounded m-auto p-5 max-h-96 mx-w-60"
+          className="rounded m-auto my-3 max-h-96 border shadow-xl"
           src={diploma}
           alt="Project screenshot"
         ></img>
+        <h6 className="mx-4 font-extrabold">Diploma in fullstack software development from Code Institute</h6>
+        <p className="mx-4 mb-3">August 2020 - May 2021</p>
         </div>
       </div>
       <div className="col-span-12 xl:col-span-4">
-        <div className="w-3/4 mt-36 bg-white h-max-content m-auto mb-36 transform rotate-3 py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+        <div className="w-full xl:w-3/4 mt-36 bg-white h-max-content m-auto mb-36 transform rotate-3 py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <div className="inline-block">
           <h4 className="text-2xl py-3 font-extrabold">
             When I'm Not Coding <FaDumbbell className="inline ml-2" />

@@ -20,7 +20,7 @@ export default function Header() {
       <nav id="main-nav" className="grid grid-cols-4 items-center">
         <NavLink  exact
             to="/" className="block col-span-2 lg:col-span-1">
-          <h2 className="text-3xl ml-3">
+          <h2 className="text-3xl ml-5">
             <span className="text-4xl font-extrabold">David</span>{" "}
             <span className="font-semibold">Lidebrandt</span>
             <p className="text-sm">

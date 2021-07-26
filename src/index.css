@@ -159,7 +159,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   position: relative;
   width: max-content;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .type-writer-text-14::before,
@@ -241,3 +241,16 @@ body {
     transform: translateX(0);
   }
 }
+
+
+/* Media queries */ 
+
+@media (min-width: 1024px) { 
+  .type-writer-text-14,
+  .type-writer-text-18,
+  .type-writer-text-19,
+  .type-writer-text-23
+      {
+      font-size: 2rem;
+    }
+ }
