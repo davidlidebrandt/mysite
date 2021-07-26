@@ -63,6 +63,13 @@ body {
   transform: translateX(-50%);
 }
 
+.center-absolute-xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .min-height-600 {
   min-height: 600px;
 }

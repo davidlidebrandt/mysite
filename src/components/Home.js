@@ -73,13 +73,23 @@ export default function Home() {
           See More
         </Link>
       </div>
-      <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Projects</h4>
+        <p className="mt-4 mb-3 mx-4">
+            I have created several projects, both frontend and fullstack applications, during my time at Code Institute which constituted the basis of our assessment 
+            for the course.
+        </p>
+        <p className="my-3 mx-4">
+            After graduating I'm continuing to create new projects and building up my portfolio.
+        </p>
+        <p className="my-3 mx-4">
+            Please note that most of the projects are hosted on Heroku and will take moment to load initially but will run as normal after that.
+        </p>
         <Link
           to="/projects"
-          className="inline-block border-4 border-transparent bg-light-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-light-green shadow-xl"
+          className="inline-block border-4 my-8 border-transparent bg-light-green rounded-lg py-4 px-8 font-bold hover:bg-white hover-light-green shadow-xl"
         >
-          Read More
+          See Projects
         </Link>
       </div>
       <div
@@ -100,7 +110,7 @@ export default function Home() {
                 Enter your email
               </label>
               <input
-                className="block m-auto w-full rounded  border-2 border-gray-200 focus:ring-2 focus:ring-yellow-200 focus:outline-none"
+                className="block m-auto w-full rounded  border-2 border-gray-200 focus:ring-2 focus:ring-yellow-100 focus:outline-none"
                 type="email"
                 required
               ></input>
@@ -109,10 +119,10 @@ export default function Home() {
               <label className="text-lg font-bold text-left block">
                 Write your message
               </label>
-              <textarea className="rounded block m-auto w-full h-48 resize-none border-2 border-gray-200 focus:ring-2 focus:ring-yellow-200 focus:outline-none"></textarea>
+              <textarea className="rounded block m-auto w-full h-48 resize-none border-2 border-gray-200 focus:ring-2 focus:ring-yellow-100 focus:outline-none"></textarea>
             </div>
             <div className="my-8 pt-8 relative ">
-            <button className="no-bg-gradient green-gradient rounded-lg py-3 px-6 font-bold hover-medium-green shadow-xl center-absolute">
+            <button className="no-bg-gradient green-gradient rounded-lg py-3 px-16 font-bold hover-medium-green shadow-xl center-absolute-xy">
               Send
             </button>
             </div>

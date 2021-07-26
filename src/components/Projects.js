@@ -13,7 +13,7 @@ export default function Projects() {
         </div>
         </div>
         <div className="w-3/4 bg-white my-36 text-lg m-auto transform -rotate-3 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-          <h4 className="text-2xl py-4 bg-darker-green font-extrabold shadow-inner">
+          <h4 className="text-2xl py-4 bg-darker-green font-extrabold shadow-inner opacity-90">
             Fitness Equipment
           </h4>
           <img
@@ -45,7 +45,7 @@ export default function Projects() {
           </a>
         </div>
         <div className="w-3/4 bg-white my-36 m-auto text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-          <h4 className="text-2xl py-4 bg-medium-green font-extrabold shadow-inner">
+          <h4 className="text-2xl py-4 bg-medium-green font-extrabold shadow-inner opacity-90">
             Movie Ratings And Reviews
           </h4>
           <img
@@ -75,7 +75,7 @@ export default function Projects() {
           </a>
         </div>
         <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
-          <h4 className="text-2xl py-4 bg-light-green font-extrabold shadow-inner">
+          <h4 className="text-2xl py-4 bg-light-green font-extrabold shadow-inner opacity-90">
             Find The Pairs
           </h4>
           <img

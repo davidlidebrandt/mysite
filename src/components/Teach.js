@@ -31,7 +31,7 @@ export default function Teach() {
       </div>
       <div className="w-3/4 bg-white my-36 m-auto transform -rotate-3 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Languages</h4>
-        <div className="center-absolute top-8 z-50 font-semibold">
+        <div className="center-absolute top-12 z-50 font-bold">
           <p className="text-xl my-8">
             JavaScript <SiJavascript className="inline" />
           </p>
@@ -49,7 +49,7 @@ export default function Teach() {
           </p>
         </div>
         <div
-          className="absolute bg-darker-green h-3/4 bottom-0 w-full z-20"
+          className="absolute bg-darker-green h-3/4 bottom-0 w-full z-20 opacity-50"
           style={{
             clipPath:
               "polygon(0 51%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 52% 100%, 0 100%)",
@@ -58,7 +58,7 @@ export default function Teach() {
       </div>
       <div className="w-3/4 bg-white my-36 m-auto rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Frameworks</h4>
-        <div className="center-absolute top-8 z-50 font-semibold">
+        <div className="center-absolute top-12 z-50 font-bold">
           <p className="text-xl my-8">
             React <SiReact className="inline" />
           </p>
@@ -78,11 +78,11 @@ export default function Teach() {
             JQuery <SiJquery className="inline" />
           </p>
         </div>
-        <div className="absolute bg-medium-green w-full bottom-0 z-20 h-2/3"></div>
+        <div className="absolute bg-medium-green w-full bottom-0 z-20 h-2/3 opacity-50"></div>
       </div>
       <div className="w-3/4 bg-white my-36 m-auto transform rotate-3 min-height-600 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl my-4 font-extrabold">Other</h4>
-        <div className="center-absolute top-8 z-50 font-semibold">
+        <div className="center-absolute top-12 z-50 font-bold">
           <p className="text-xl my-8">
             MongoDB <SiMongodb className="inline" />
           </p>
@@ -109,7 +109,7 @@ export default function Teach() {
           </p>
         </div>
         <div
-          className="absolute bg-light-green h-3/4 bottom-0 w-full z-20"
+          className="absolute bg-light-green h-3/4 bottom-0 w-full z-20 opacity-50"
           style={{
             clipPath:
               "polygon(0 0, 100% 50%, 100% 75%, 100% 100%, 75% 100%, 52% 100%, 0 100%)",
