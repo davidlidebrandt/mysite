@@ -107,7 +107,7 @@ export default function Header() {
               Projects
             </NavLink>
             <a
-              href="#contact"
+              href=".message-div"
               onClick={toggleNav}
               className="my-4 py-4 px-5 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block text-center"
             >

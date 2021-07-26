@@ -9,7 +9,9 @@ body {
 }
 
 .bg-image {
-  background: url("./images/rm218batch5-katie-18.jpg");
+  background: url("./images/rm218batch5-katie-18.jpg") no-repeat center;
+  background-size: cover;
+
 }
 
 
@@ -106,6 +108,10 @@ body {
 
 .text-darker-green {
   color: #afe26b;
+}
+
+.text-darkest-green {
+  color: #4bc42b;
 }
 
 .border-light-green {
