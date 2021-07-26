@@ -25,12 +25,12 @@ import {
 export default function Home() {
   return (
     <div className="grid grid-cols-12 text-center text-xl font-bold">
-      <div className="col-span-12 w-max-content py-2 px-2 m-auto mt-36 bg-white rounded shadow-2xl green-gradient">
+      <div className="col-span-12 w-max-content py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
         <div className="bg-white py-8 px-16">
             <h2 className=" type-writer-text-18">Welcome to my site</h2>
         </div>
       </div>
-      <div className="col-span-12 xl:col-span-4  w-full  xl:w-3/4  bg-white mt-36 m-auto transform -rotate-3 py-4 rounded  transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="col-span-12 xl:col-span-4  w-full  xl:w-3/4  bg-white mt-20 m-auto transform -rotate-3 py-4 rounded  transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl font-extrabold">About Me</h4>
         <p className="px-4 mt-4 mb-3">Hi I'm a newly graduated full stack software developer who is looking to take the step into a professional setting and continuing learning and contribute to 
               become a valuable asset in the industry.
@@ -47,7 +47,7 @@ export default function Home() {
           Continue Reading
         </Link>
       </div>
-      <div className="col-span-12 xl:col-span-4 w-full  xl:w-3/4 bg-white mt-36 m-auto py-2 px-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="col-span-12 xl:col-span-4 w-full  xl:w-3/4 bg-white mt-20 m-auto py-2 px-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Tech I have used</h4>
         
         <div className="grid grid-cols-3 m-4 shadow-xl w-full">
@@ -73,7 +73,7 @@ export default function Home() {
           See More
         </Link>
       </div>
-      <div className="col-span-12 xl:col-span-4 w-full xl:w-3/4 bg-white mt-36 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="col-span-12 xl:col-span-4 w-full xl:w-3/4 bg-white mt-20 m-auto transform rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Projects</h4>
         <p className="mt-4 mb-3 mx-4">
             I have created several projects, both frontend and fullstack applications, during my time at Code Institute which constituted the basis of our assessment 
@@ -93,7 +93,7 @@ export default function Home() {
         </Link>
       </div>
       <div
-        className="message-div col-span-12  xl:col-span-6 xl:col-start-4 w-full m-auto  my-36 bg-white min-height-700 rounded"
+        className="message-div col-span-12  xl:col-span-6 xl:col-start-4 w-full m-auto  my-20 bg-white min-height-700 rounded"
         style={{
           clipPath:
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",
