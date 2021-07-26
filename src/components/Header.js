@@ -97,7 +97,7 @@ export default function Header() {
               className="my-4 px-5 py-4 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block"
               activeClassName="custom-underline"
             >
-              Tech Stack
+              Technologies
             </NavLink>
             <NavLink
               onClick={toggleNav}

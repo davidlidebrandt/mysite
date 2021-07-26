@@ -7,17 +7,17 @@ export default function Footer() {
       <div id="contact" className="col-span-2 xl:col-span-1 py-8 text-center xl:text-left">
         <a
           href="https://github.com/davidlidebrandt"
-          className="text-4xl mx-5 cursor-pointer"
+          className="text-4xl mr-5 ml-8 cursor-pointer"
         >
           <FaGithubSquare className="inline transform hover:scale-150 transform transition-all duration-700" />
         </a>
         <a
           href="https://www.linkedin.com/in/david-lidebrandt-5842411b6/"
-          className="text-4xl mx-5 cursor-pointer"
+          className="text-4xl mx-8 cursor-pointer"
         >
           <FaLinkedin className="inline transform hover:scale-150 transform transition-all duration-700" />
         </a>
-        <button className="text-4xl mx-5">
+        <button className="text-4xl mx-8">
           <FaEnvelopeSquare className="inline transform hover:scale-150 transform transition-all duration-700" />
         </button>
       </div>

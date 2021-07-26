@@ -29,7 +29,7 @@ function App() {
       <BrowserRouter>
       <Header></Header> 
        
-      <div className="bg-image min-h-screen px-10">  
+      <div className="bg-image min-h-screen p-2  md:px-10">  
       <Switch>
         <Route path="/" exact>
           <Home></Home>

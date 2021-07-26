@@ -8,11 +8,11 @@ export default function About() {
   return (
     <div className="grid grid-cols-12  text-center text-xl font-bold">
       <div className="col-span-12  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
-        <div className="bg-white py-8 px-16">
+        <div className="bg-white py-3 px-6 xl:py-8 xl:px-16">
           <h2 className="type-writer-text-14">Get to know me</h2>
         </div>
       </div>
-      <div className="col-span-12 xl:col-span-4 w-full xl:w-3/4 bg-white mt-20 mb-0 xl:mb-20 m-auto transform -rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="col-span-12 xl:col-span-4 md:col-span-10 md:col-start-2  w-full xl:w-3/4 bg-white mt-20 mb-0 xl:mb-20 m-auto transform md:-rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             My Story <GoPerson className="inline ml-2" />
@@ -44,7 +44,7 @@ export default function About() {
           project.
         </p>
       </div>
-      <div className="col-span-12 xl:col-span-4">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 ">
         <div className="w-full bg-white mt-20 mb-0 xl:mb-20 xl:w-3/4 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
@@ -61,8 +61,8 @@ export default function About() {
         <p className="mx-4 mb-3">August 2020 - May 2021</p>
         </div>
       </div>
-      <div className="col-span-12 xl:col-span-4">
-        <div className="w-full xl:w-3/4 mt-20 bg-white h-max-content m-auto mb-20 transform rotate-3 py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4">
+        <div className="w-full xl:w-3/4 mt-20 bg-white h-max-content m-auto mb-20 transform md:rotate-3 py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <div className="inline-block">
           <h4 className="text-2xl py-3 font-extrabold">
             When I'm Not Coding <FaDumbbell className="inline ml-2" />
@@ -70,18 +70,15 @@ export default function About() {
           <hr className="border-t-8 border-light-green mt-2"></hr>
         </div>
         <div className="my-4">
-            <h6 className="text-xl px-4 font-extrabold">Training</h6>
-            <p className="px-4">I really enjoy physical activities and especially strength training which I engage in in a regular basis</p>
+            <p className="px-4"><span className="font-extrabold">Training - </span> I really enjoy physical activities and especially strength training which I engage in in a regular basis.</p>
         </div>
         <div className="my-4">
-            <h6 className="px-4 font-extrabold">Reading</h6>
-            <p className="px-4">I like reading books and articles from different fields such as science, history, psychology, religion , training and nutrition</p>
+            <p className="px-4"><span className="font-extrabold">Reading - </span>I like reading books and articles from different fields such as science, history, psychology, religion , training and nutrition.</p>
         </div>
         <div className="my-4">
-            <h6 className="px-4 font-extrabold">Sports</h6>
-            <p className="px-4">As a former basketball player and a big sports fan I enjoy both watching and participating in different sports. When time allows 
+            <p className="px-4"><span className="font-extrabold">Sports - </span>As a former basketball player and a big sports fan I enjoy both watching and participating in different sports. When time allows 
                 I enjoy watching a game of football, basketball or a mixed martial arts event, when the pandemic is over I'm looking into start training some
-                martial art such as brazilian jiu jiujitsu. 
+                martial arts.
         </p>
         </div>
         </div>

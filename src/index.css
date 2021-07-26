@@ -168,7 +168,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   position: relative;
   width: max-content;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .type-writer-text-14::before,
@@ -263,3 +263,13 @@ body {
       font-size: 2rem;
     }
  }
+
+ @media (min-width: 768px) { 
+  .type-writer-text-14,
+  .type-writer-text-18,
+  .type-writer-text-19,
+  .type-writer-text-23
+      {
+      font-size: 1.5rem;
+    }
+  }
