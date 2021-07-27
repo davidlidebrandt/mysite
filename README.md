@@ -1,7 +1,7 @@
 ##David Lidebrandt - Software Developer
 <hr>
 
-[Link to the deployed project](https://fitness-equipment.herokuapp.com/)
+[Link to the deployed project](https://david-lidebrandt.herokuapp.com/)
 
 <img src="src/images/project-images/2366.png"
      alt="Project screenshots"
