@@ -1,6 +1,8 @@
 import React from "react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import emailjs from 'emailjs-com';
+import SendEmailForm from "./SendEmailForm";
 import {
     SiPython,
     SiReact,
@@ -13,16 +15,36 @@ import {
     SiBootstrap,
     SiTailwindcss,
     SiJquery,
-    SiGithub,
-    SiGit,
-    SiVisualstudiocode,
-    SiHeroku,
-    SiGitpod,
-    SiStripe,
-    SiAdobexd,
   } from "react-icons/si";
 
 export default function Home() {
+    const [toSend, setToSend] = useState({
+        from_email: '',
+        from_name: '',
+        message: '',
+      
+      });
+
+      const onSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(
+          'service_h6vfe2t',
+          'template_m519wm6',
+          toSend,
+          'user_X8kHVVh3FSqfD33H629kx'
+        )
+          .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+          })
+          .catch((err) => {
+            console.log('FAILED...', err);
+          });
+      };
+
+      const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
+    
   return (
     <div className="grid grid-cols-12 text-center text-xl font-bold">
       <div className="col-span-12 w-max-content py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
@@ -93,40 +115,18 @@ export default function Home() {
         </Link>
       </div>
       <div
-        className="message-div col-span-12 md:col-span-10 md:col-start-2  xl:col-span-6 xl:col-start-4 w-full m-auto  my-20 bg-white min-height-700 rounded"
+        className="message-div col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 xl:col-start-5 w-full m-auto  my-20 bg-white h-min-content rounded"
         style={{
           clipPath:
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",
         }}
       >
-        <div className="col-start-2 bg-white transform scale-90 rounded py-4 shadow-xl box-border">
+        <div className="col-start-2 bg-white rounded px-4 md:px-8 py-8 pb-52 shadow-xl border-2">
           <h4 className="text-3xl font-extrabold mb-3">
             Want to get in touch?
           </h4>
           <p className="text-xl font-extrabold mb-5">Send me a message below</p>
-          <form>
-            <div className="my-3 mx-4">
-              <label className="text-lg font-bold text-left block">
-                Enter your email
-              </label>
-              <input
-                className="block m-auto w-full rounded  border-2 border-gray-200 focus:ring-2 focus:ring-yellow-100 focus:outline-none"
-                type="email"
-                required
-              ></input>
-            </div>
-            <div className="my-3 mx-4">
-              <label className="text-lg font-bold text-left block">
-                Write your message
-              </label>
-              <textarea className="rounded block m-auto w-full h-48 resize-none border-2 border-gray-200 focus:ring-2 focus:ring-yellow-100 focus:outline-none"></textarea>
-            </div>
-            <div className="my-8 pt-8 relative ">
-            <button className="no-bg-gradient green-gradient rounded-lg py-3 px-16 font-bold hover-medium-green shadow-xl center-absolute-xy">
-              Send
-            </button>
-            </div>
-          </form>
+          <SendEmailForm/>
         </div>
       </div>
     </div>

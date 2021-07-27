@@ -2,9 +2,11 @@ import React from 'react'
 import fitness from "../images/project-images/fitness.png"
 import movie from "../images/project-images/movie.png"
 import game from "../images/project-images/game.png"
+import ContactUs from './SendEmailForm'
 
 
 export default function Projects() {
+    
     return (
       <div className="grid grid-cols-12 font-bold text-center">
         <div className="col-span-12  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
