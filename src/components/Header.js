@@ -60,7 +60,7 @@ export default function Header() {
           </NavLink>
           <a
             href="#contact"
-            className="mx-5 py-4 pl-5 rounded border-4 border-transparent"
+            className="mx-5 py-4 px-5 rounded border-4 border-transparent"
           >
             Contact
           </a>

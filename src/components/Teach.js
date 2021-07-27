@@ -29,7 +29,7 @@ export default function Teach() {
         <h2 className="type-writer-text-23">Tech I have worked with</h2>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-4 xl:w-3/4">
+      <div className="col-span-12 md:col-span-10 md:col-start-3  w-full xl:col-start-4  xl:col-span-2 m-auto mt-0">
         <div className="bg-white mt-20 m-auto transform md:-rotate-3 rounded relative min-height-450 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Languages</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
@@ -58,7 +58,7 @@ export default function Teach() {
         ></div>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-4 xl:w-3/4">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-2 m-auto mt-0">
         <div className="bg-white mt-20 m-auto rounded relative min-height-550 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Frameworks</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
@@ -84,7 +84,7 @@ export default function Teach() {
         <div className="absolute bg-medium-green w-full bottom-0 z-20 h-2/3 opacity-50"></div>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-4 xl:w-3/4">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-2 m-auto mt-0">
         <div className="bg-white my-20 m-auto transform md:rotate-3 min-height-700 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Other</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
