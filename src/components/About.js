@@ -40,8 +40,7 @@ export default function About() {
           software developer by creating new projects, learning new technologies
           and sharpening my skills in previously known areas. At the moment I'm
           really into React.js and Tailwind CSS which were used to create this
-          site and I'm looking into using Next.js and Strapi for my next
-          project.
+          site and I'm currently looking into other technologies such as Next.js and Strapi.
         </p>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 ">
@@ -57,17 +56,17 @@ export default function About() {
           src={diploma}
           alt="Project screenshot"
         ></img>
-        <h6 className="mx-4 font-extrabold">Diploma in fullstack software development from Code Institute</h6>
+        <h6 className="mx-4 font-extrabold">Diploma in Fullstack Software Development from Code Institute</h6>
         <p className="mx-4 mb-3">August 2020 - May 2021</p>
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4">
-        <div className="w-full xl:w-3/4 mt-20 bg-white h-max-content m-auto mb-20 transform md:rotate-3 py-2 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+        <div className="w-full xl:w-3/4 mt-20 bg-white h-max-content m-auto mb-20 transform md:rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <div className="inline-block">
-          <h4 className="text-2xl py-3 font-extrabold">
+          <h4 className="text-2xl font-extrabold">
             When I'm Not Coding <FaDumbbell className="inline ml-2" />
           </h4>
-          <hr className="border-t-8 border-light-green mt-2"></hr>
+          <hr className="border-t-8 border-light-green mt-2 mb-4"></hr>
         </div>
         <div className="my-4">
             <p className="px-4"><span className="font-extrabold">Training - </span> I really enjoy physical activities and especially strength training which I engage in in a regular basis.</p>
@@ -76,9 +75,8 @@ export default function About() {
             <p className="px-4"><span className="font-extrabold">Reading - </span>I like reading books and articles from different fields such as science, history, psychology, religion , training and nutrition.</p>
         </div>
         <div className="my-4">
-            <p className="px-4"><span className="font-extrabold">Sports - </span>As a former basketball player and a big sports fan I enjoy both watching and participating in different sports. When time allows 
-                I enjoy watching a game of football, basketball or a mixed martial arts event, when the pandemic is over I'm looking into start training some
-                martial arts.
+            <p className="px-4"><span className="font-extrabold">Sports - </span>As a former basketball player and a big sports fan I enjoy both watching and participating in different sports.
+        
         </p>
         </div>
         </div>

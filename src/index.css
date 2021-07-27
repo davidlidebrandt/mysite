@@ -72,13 +72,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.min-height-400 {
-  min-height: 600px;
+.min-height-450 {
+  min-height: 450px;
 }
 
 
-.min-height-500 {
-  min-height: 600px;
+.min-height-550 {
+  min-height: 550px;
 }
 
 .min-height-600 {
