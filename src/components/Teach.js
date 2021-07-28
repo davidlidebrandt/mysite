@@ -29,7 +29,7 @@ export default function Teach() {
   return (
     <div className="grid grid-cols-12 text-center text-xl font-bold">
       <div className="col-span-12 w-max-content  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
-        <div className="bg-white py-3 px-3 xl:py-8 xl:px-16">
+        <div className="bg-white py-3 px-3 xl:py-8 xl:px-16 rounded">
         <h2 className="type-writer-text-23">Tech I have worked with</h2>
         </div>
       </div>
