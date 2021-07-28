@@ -17,7 +17,7 @@ export default function Projects() {
         <h2 className="type-writer-text-19">Some of my projects</h2>
         </div>
         </div>
-        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full  xl:w-3/4 bg-white mt-20 text-lg m-auto transform md:-rotate-3 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full  xl:w-11/12 bg-white mt-20 text-lg m-auto transform md:-rotate-3 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
           <h4 className="text-2xl py-4 bg-darker-green font-extrabold shadow-inner opacity-90">
             Fitness Equipment
           </h4>
@@ -49,7 +49,7 @@ export default function Projects() {
             Github repo
           </a>
         </div>
-        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-3/4 bg-white mt-20 xl:mb-20 m-auto text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-11/12 bg-white mt-20 xl:mb-20 m-auto text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
           <h4 className="text-2xl py-4 bg-medium-green font-extrabold shadow-inner opacity-90">
             Movie Ratings And Reviews
           </h4>
@@ -79,7 +79,7 @@ export default function Projects() {
             Github repo
           </a>
         </div>
-        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-3/4 bg-white my-20 m-auto transform md:rotate-3 text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-11/12 bg-white my-20 m-auto transform md:rotate-3 text-lg rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
           <h4 className="text-2xl py-4 bg-light-green font-extrabold shadow-inner opacity-90">
             Find The Pairs
           </h4>

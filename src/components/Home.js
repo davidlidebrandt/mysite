@@ -32,7 +32,7 @@ export default function Home(props) {
             <h2 className=" type-writer-text-18">Welcome to my site</h2>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4  w-full  xl:w-3/4  bg-white mt-20 m-auto transform md:-rotate-3 py-4 rounded  transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4  w-full  xl:w-11/12  bg-white mt-20 m-auto transform md:-rotate-3 py-4 rounded  transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl font-extrabold">About Me</h4>
         <p className="px-4 mt-4 mb-3">Hi I'm a newly graduated full stack software developer who is looking to take the step into a professional setting and continuing learning and contribute to 
               become a valuable asset in the industry.
@@ -49,7 +49,7 @@ export default function Home(props) {
           Continue Reading
         </Link>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full  xl:w-3/4 bg-white mt-20 m-auto py-2 px-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full  xl:w-11/12 bg-white mt-20 m-auto py-2 px-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Tech I have used</h4>
         
         <div className="grid grid-cols-3 m-4 shadow-xl w-full text-base md:text-lg">
@@ -75,7 +75,7 @@ export default function Home(props) {
           See More
         </Link>
       </div>
-      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-3/4 bg-white mt-20 m-auto transform md:rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+      <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 w-full xl:w-11/12 bg-white mt-20 m-auto transform md:rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <h4 className="text-2xl font-extrabold">Projects</h4>
         <p className="mt-4 mb-3 mx-4">
             I have created several projects, both frontend and fullstack applications, during my time at Code Institute which constituted the basis of our assessment 

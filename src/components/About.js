@@ -17,7 +17,7 @@ export default function About() {
           <h2 className="type-writer-text-14">Get to know me</h2>
         </div>
       </div>
-      <div className="col-span-12 xl:col-span-4 md:col-span-10 md:col-start-2  w-full xl:w-3/4 bg-white mt-20 mb-0 xl:mb-20 m-auto transform md:-rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+      <div className="col-span-12 xl:col-span-4 md:col-span-10 md:col-start-2  w-full xl:w-11/12 bg-white mt-20 mb-0 xl:mb-20 m-auto transform md:-rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             My Story <GoPerson className="inline ml-2" />
@@ -49,7 +49,7 @@ export default function About() {
         </p>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 ">
-        <div className="w-full bg-white mt-20 mb-0 xl:mb-20 xl:w-3/4 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="w-full bg-white mt-20 mb-0 xl:mb-20 xl:w-11/12 m-auto py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             Education <FaBookReader className="inline ml-2" />
@@ -66,7 +66,7 @@ export default function About() {
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4">
-        <div className="w-full xl:w-3/4 mt-20 bg-white h-max-content m-auto mb-20 transform md:rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
+        <div className="w-full xl:w-11/12 mt-20 bg-white h-max-content m-auto mb-20 transform md:rotate-3 py-4 rounded transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl grid place-items-center">
         <div className="inline-block">
           <h4 className="text-2xl font-extrabold">
             When I'm Not Coding <FaDumbbell className="inline ml-2" />

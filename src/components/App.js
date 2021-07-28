@@ -43,7 +43,7 @@ function App() {
     <div className="App bg-darker-green">
       <Header></Header> 
        
-      <div className="bg-image min-h-screen p-2 md:x-10 xl:mx-36 custom-box-shadow-2">  
+      <div className="bg-image min-h-screen p-2 md:x-10 xl:mx-36 custom-box-shadow-2 xl:px-10">  
       <Switch>
         <Route path="/" exact>
           <Home messageDiv={messageDiv}></Home>
