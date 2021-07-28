@@ -95,7 +95,7 @@ export default function Home(props) {
         </Link>
       </div>
       <div
-        className="message-div col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 xl:col-start-5 w-full m-auto  my-20 bg-white h-min-content rounded"
+        className="message-div col-span-12 md:col-span-10 md:col-start-2  xl:col-span-6 xl:col-start-4 xl:w-10/12 w-full m-auto  my-20 bg-white h-min-content rounded"
         style={{
           clipPath:
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",

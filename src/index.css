@@ -266,13 +266,25 @@ body {
 
 /* Media queries */ 
 
+@media (min-width: 640px) {
+  @media (min-width: 768px) { 
+    .type-writer-text-14,
+    .type-writer-text-18,
+    .type-writer-text-19,
+    .type-writer-text-23
+        {
+        font-size: 1.5rem;
+      }
+    }
+ }
+
  @media (min-width: 768px) { 
   .type-writer-text-14,
   .type-writer-text-18,
   .type-writer-text-19,
   .type-writer-text-23
       {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   }
 
@@ -282,6 +294,6 @@ body {
     .type-writer-text-19,
     .type-writer-text-23
         {
-        font-size: 2rem;
+        font-size: 1.9rem;
       }
    }
