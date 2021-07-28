@@ -64,6 +64,11 @@ export default function Header() {
           >
             Contact
           </a>
+          <a href="#message-form"
+              className="hidden"
+          >
+
+          </a>
         </div>
         <div onClick={toggleNav} className="col-span-2 lg:col-span-3 xl:hidden">
           <div className="float-right mr-4">

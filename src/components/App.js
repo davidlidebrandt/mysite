@@ -13,12 +13,15 @@ function App() {
 
   const messageDiv = useRef();
 
+  function simulateClick(id) {
+    document.getElementById(id).click()
+  }
+
   const scrollToMessageForm = () => {
-    console.log(messageDiv)
     goToOtherPage.push("/");
     setTimeout(function() {
       messageDiv.current.scrollIntoView();
-    },500);
+    },1000);
   }
    
 
