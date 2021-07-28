@@ -173,14 +173,14 @@ body {
 .type-writer-text-14,
 .type-writer-text-18,
 .type-writer-text-19,
-.type-writer-text-23
+.type-writer-text-16
  {
   font-family: 'Ubuntu Mono', monospace;
   font-family: 'B612 Mono', monospace;
   font-family: 'Roboto Mono', monospace;
   position: relative;
   width: max-content;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .type-writer-text-14::before,
@@ -189,8 +189,8 @@ body {
 .type-writer-text-18::after,
 .type-writer-text-19::before,
 .type-writer-text-19::after,
-.type-writer-text-23::before,
-.type-writer-text-23::after {
+.type-writer-text-16::before,
+.type-writer-text-16::after {
   content: "";
   position: absolute;
   top: 0;
@@ -232,15 +232,15 @@ body {
   animation: type-writer-anm 3s steps(19) forwards;
 }
 
-.type-writer-text-23::before {
+.type-writer-text-16::before {
   background: white;
-  animation: type-writer-anm 3s steps(23) forwards;
+  animation: type-writer-anm 3s steps(16) forwards;
 }
 
-.type-writer-text-23::after {
+.type-writer-text-16::after {
   width: 0.125em;
   background-color: black;
-  animation: type-writer-anm 3s steps(23) forwards;
+  animation: type-writer-anm 3s steps(16) forwards;
 }
 
 @keyframes type-writer-anm {
@@ -271,7 +271,7 @@ body {
     .type-writer-text-14,
     .type-writer-text-18,
     .type-writer-text-19,
-    .type-writer-text-23
+    .type-writer-text-16
         {
         font-size: 1.5rem;
       }
@@ -282,7 +282,7 @@ body {
   .type-writer-text-14,
   .type-writer-text-18,
   .type-writer-text-19,
-  .type-writer-text-23
+  .type-writer-text-16
       {
       font-size: 1.7rem;
     }
@@ -292,7 +292,7 @@ body {
     .type-writer-text-14,
     .type-writer-text-18,
     .type-writer-text-19,
-    .type-writer-text-23
+    .type-writer-text-16
         {
         font-size: 1.9rem;
       }
