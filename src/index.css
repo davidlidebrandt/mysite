@@ -63,6 +63,14 @@ body {
 
 /* Helpers/utilities */
 
+.custom-box-shadow {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.custom-box-shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
 .center-absolute {
   position: absolute;
   left: 50%;
@@ -258,16 +266,6 @@ body {
 
 /* Media queries */ 
 
-@media (min-width: 1024px) { 
-  .type-writer-text-14,
-  .type-writer-text-18,
-  .type-writer-text-19,
-  .type-writer-text-23
-      {
-      font-size: 2rem;
-    }
- }
-
  @media (min-width: 768px) { 
   .type-writer-text-14,
   .type-writer-text-18,
@@ -277,3 +275,13 @@ body {
       font-size: 1.5rem;
     }
   }
+
+  @media (min-width: 1024px) { 
+    .type-writer-text-14,
+    .type-writer-text-18,
+    .type-writer-text-19,
+    .type-writer-text-23
+        {
+        font-size: 2rem;
+      }
+   }

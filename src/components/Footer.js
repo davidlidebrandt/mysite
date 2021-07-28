@@ -6,7 +6,7 @@ export default function Footer(props) {
 
 
   return (
-    <footer className="bg-white font-semibold grid grid-cols-2 items-center">
+    <footer className="bg-white font-semibold grid grid-cols-2 items-center custom-box-shadow">
       <div id="contact" className="col-span-2 xl:col-span-1 py-8 text-center xl:text-left">
         <a
           href="https://github.com/davidlidebrandt"
