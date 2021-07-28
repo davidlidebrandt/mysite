@@ -4,28 +4,12 @@ import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
 import Teach from "./Teach";
-import { useEffect, useRef, useCallback } from "react";
-import { Route, Switch, useHistory } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
 
-  const goToOtherPage = useHistory();
-
-  const messageDiv = useRef();
-
-  function simulateClick(id) {
-    document.getElementById(id).click()
-  }
-
-  const scrollToMessageForm = () => {
-    goToOtherPage.push("/");
-    setTimeout(function() {
-      messageDiv.current.scrollIntoView();
-    },1000);
-  }
-   
-
-  
+  const [linkToMessage, setLinkToMessage] = useState(false);
  
   useEffect(() => {
 
@@ -37,7 +21,6 @@ function App() {
        document.querySelector(".message-div").getBoundingClientRect().right <= window.innerWidth)) {
         document.querySelector(".message-div").classList.add("message-animation")
     }
-   
   
   })
  }, [])
@@ -49,7 +32,7 @@ function App() {
       <div className="bg-image min-h-screen p-2 md:x-10 xl:mx-36 custom-box-shadow-2 xl:px-10">  
       <Switch>
         <Route path="/" exact>
-          <Home messageDiv={messageDiv}></Home>
+          <Home linkToMessage={linkToMessage} setLinkToMessage={setLinkToMessage}></Home>
         </Route>
         <Route path="/projects">
           <Projects></Projects>
@@ -62,7 +45,7 @@ function App() {
         </Route>
         </Switch>
       </div>
-    <Footer scrollToMessageForm={scrollToMessageForm}></Footer>
+    <Footer setLinkToMessage={setLinkToMessage}></Footer>
     </div>
   );
 }

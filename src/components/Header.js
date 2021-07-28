@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MdComputer } from "react-icons/md";
 import { FaWindowClose } from "react-icons/fa";
 

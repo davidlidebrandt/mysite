@@ -1,7 +1,6 @@
 import React from "react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import emailjs from 'emailjs-com';
 import SendEmailForm from "./SendEmailForm";
 import {
     SiPython,
@@ -19,9 +18,18 @@ import {
 
 export default function Home(props) {
 
+  const messageDiv = useRef();
   
   useEffect(()=> {
-    window.scrollTo(0,0)
+
+    if (props.linkToMessage) {
+      messageDiv.current.scrollIntoView();
+      props.setLinkToMessage(false)
+    }
+    else {
+      window.scrollTo(0,0)
+    }
+
   },[]);
 
     
@@ -101,7 +109,7 @@ export default function Home(props) {
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",
         }}
       >
-        <div id="message-form" ref={props.messageDiv} className="col-start-2 bg-white rounded px-4 md:px-8 py-8 pb-52 shadow-xl border-2">
+        <div id="message-form" ref={messageDiv} className="col-start-2 bg-white rounded px-4 md:px-8 py-8 pb-52 shadow-xl border-2">
           <h4 className="text-3xl font-extrabold mb-3">
             Want to get in touch?
           </h4>

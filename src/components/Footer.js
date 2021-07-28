@@ -1,9 +1,15 @@
 import React from "react";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
 export default function Footer(props) {
 
+  const navigate = useHistory();
+ 
+  function clickMessageIcon() {
+    props.setLinkToMessage(true)
+    navigate.push("/")
+  }
 
   return (
     <footer className="bg-white font-semibold grid grid-cols-2 items-center custom-box-shadow">
@@ -20,7 +26,7 @@ export default function Footer(props) {
         >
           <FaLinkedin className="inline transform hover:scale-150 transform transition-all duration-700" />
         </a>
-        <button onClick={props.scrollToMessageForm}  className="text-4xl mx-8">
+        <button onClick={clickMessageIcon}  className="text-4xl mx-8">
           <FaEnvelopeSquare className="inline transform hover:scale-150 transform transition-all duration-700" />
         </button>
       </div>
