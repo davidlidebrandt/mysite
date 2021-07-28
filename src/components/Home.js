@@ -17,7 +17,12 @@ import {
     SiJquery,
   } from "react-icons/si";
 
-export default function Home() {
+export default function Home(props) {
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  })
+
+
     const [toSend, setToSend] = useState({
         from_email: '',
         from_name: '',
@@ -121,7 +126,7 @@ export default function Home() {
             "polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)",
         }}
       >
-        <div className="col-start-2 bg-white rounded px-4 md:px-8 py-8 pb-52 shadow-xl border-2">
+        <div id="message-form" ref={props.messageDiv} className="col-start-2 bg-white rounded px-4 md:px-8 py-8 pb-52 shadow-xl border-2">
           <h4 className="text-3xl font-extrabold mb-3">
             Want to get in touch?
           </h4>

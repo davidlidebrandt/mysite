@@ -1,10 +1,15 @@
 import React from "react";
+import { useEffect } from "react";
 import diploma from "../images/project-images/diploma.png";
 import { FaBookReader } from "react-icons/fa";
 import { GoPerson } from "react-icons/go";
 import { FaDumbbell } from "react-icons/fa";
 
 export default function About() {
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  })
+
   return (
     <div className="grid grid-cols-12  text-center text-xl font-bold">
       <div className="col-span-12  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">

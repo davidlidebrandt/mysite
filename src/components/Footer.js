@@ -1,7 +1,10 @@
 import React from "react";
+import { useHistory } from "react-router";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
-export default function Footer() {
+export default function Footer(props) {
+
+
   return (
     <footer className="bg-white font-semibold grid grid-cols-2 items-center">
       <div id="contact" className="col-span-2 xl:col-span-1 py-8 text-center xl:text-left">
@@ -17,7 +20,7 @@ export default function Footer() {
         >
           <FaLinkedin className="inline transform hover:scale-150 transform transition-all duration-700" />
         </a>
-        <button className="text-4xl mx-8">
+        <button onClick={props.scrollToMessageForm}  className="text-4xl mx-8">
           <FaEnvelopeSquare className="inline transform hover:scale-150 transform transition-all duration-700" />
         </button>
       </div>

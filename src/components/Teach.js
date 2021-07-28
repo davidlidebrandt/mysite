@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import {
   SiPython,
   SiReact,
@@ -22,6 +23,9 @@ import {
 } from "react-icons/si";
 
 export default function Teach() {
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  })
   return (
     <div className="grid grid-cols-12 text-center text-xl font-bold">
       <div className="col-span-12 w-max-content  py-2 px-2 m-auto mt-20 bg-white rounded shadow-2xl green-gradient">
@@ -30,7 +34,7 @@ export default function Teach() {
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-3  w-full xl:col-start-4  xl:col-span-2 m-auto mt-0">
-        <div className="bg-white mt-20 m-auto transform md:-rotate-3 rounded relative min-height-450 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="bg-white mt-20 m-auto transform md:-rotate-3 rounded relative min-height-450 transform xl:scale-110 xl:hover:scale-125 hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Languages</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
           <p className="text-2xl my-8">
@@ -59,7 +63,7 @@ export default function Teach() {
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-2 m-auto mt-0">
-        <div className="bg-white mt-20 m-auto rounded relative min-height-550 transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="bg-white mt-20 m-auto rounded relative min-height-550 transform xl:scale-110 xl:hover:scale-125 hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Frameworks</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
           <p className="text-2xl my-8">
@@ -85,7 +89,7 @@ export default function Teach() {
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-2 m-auto mt-0">
-        <div className="bg-white my-20 m-auto transform md:rotate-3 min-height-700 rounded relative transform hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="bg-white my-20 m-auto transform md:rotate-3 min-height-700 rounded relative transform xl:scale-110 xl:hover:scale-125 hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Other</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
           <p className="text-2xl my-8">

@@ -4,10 +4,25 @@ import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
 import Teach from "./Teach";
-import { useEffect } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { Route, Switch, useHistory } from "react-router-dom";
 
 function App() {
+
+  let goToOtherPage = useHistory();
+  const messageDiv = useRef();
+
+  const getId = () => {
+    return messageDiv;
+  }
+
+
+  const scrollToMessageForm = () => {
+    goToOtherPage.push("/");
+    //getId.current.scrollIntoView();
+  }
+
+  
  
   useEffect(() => {
 
@@ -26,13 +41,12 @@ function App() {
   
  return (
     <div className="App">
-      <BrowserRouter>
       <Header></Header> 
        
       <div className="bg-image min-h-screen p-2  md:px-10">  
       <Switch>
         <Route path="/" exact>
-          <Home></Home>
+          <Home messageDiv={messageDiv}></Home>
         </Route>
         <Route path="/projects">
           <Projects></Projects>
@@ -45,8 +59,7 @@ function App() {
         </Route>
         </Switch>
       </div>
-    <Footer></Footer>
-    </BrowserRouter>
+    <Footer scrollToMessageForm={scrollToMessageForm}></Footer>
     </div>
   );
 }
