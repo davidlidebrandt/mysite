@@ -25,18 +25,18 @@ export default function About() {
           <hr className="border-t-8 border-darker-green mt-2"></hr>
         </div>
         <p className="px-4 my-3">
-          ...The course at Code Institute lasted for nine months and was both
+          The course at Code Institute lasted for nine months and was both
           challenging and really rewarding, it gave me the tools needed to
           create, debug and deploy applications on the web and a good basic
-          understanding of many general concepts within the world of programming
+          understanding of many general concepts within programming
           and software development.
         </p>
         <p className="px-4 my-3">
           In the course I created, tested, documented and deployed several
-          applications by myself which I was graded on. I used version control
-          via Git and stored my repositories on Github, I created basic
-          wireframes and mockups for my applications, documented the process
-          extensively in the projects README files and deployed the projects on
+          applications which I was graded on. I used version control
+          via Git, stored my repositories on Github, I created basic
+          wireframes/mockups for my applications, documented the process
+          extensively in the README file and deployed the projects on
           Heroku/Github pages. The main languages/frameworks used were
           JavaScript, CSS, HTML, Python, Django, Flask, JQuery and Bootstrap.
         </p>
@@ -45,7 +45,7 @@ export default function About() {
           software developer by creating new projects, learning new technologies
           and sharpening my skills in previously known areas. At the moment I'm
           really into React.js and Tailwind CSS which were used to create this
-          site and I'm currently looking into other technologies such as Next.js and Strapi.
+          site and I'm also looking into other technologies such as Next.js and Strapi.
         </p>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  xl:col-span-4 ">
