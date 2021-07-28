@@ -4,23 +4,23 @@ import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
 import Teach from "./Teach";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback } from "react";
 import { Route, Switch, useHistory } from "react-router-dom";
 
 function App() {
 
-  let goToOtherPage = useHistory();
+  const goToOtherPage = useHistory();
+
   const messageDiv = useRef();
 
-  const getId = () => {
-    return messageDiv;
-  }
-
-
   const scrollToMessageForm = () => {
+    console.log(messageDiv)
     goToOtherPage.push("/");
-    //getId.current.scrollIntoView();
+    setTimeout(function() {
+      messageDiv.current.scrollIntoView();
+    },500);
   }
+   
 
   
  

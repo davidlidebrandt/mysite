@@ -18,37 +18,12 @@ import {
   } from "react-icons/si";
 
 export default function Home(props) {
+
+  
   useEffect(()=> {
     window.scrollTo(0,0)
-  })
+  },[]);
 
-
-    const [toSend, setToSend] = useState({
-        from_email: '',
-        from_name: '',
-        message: '',
-      
-      });
-
-      const onSubmit = (e) => {
-        e.preventDefault();
-        emailjs.sendForm(
-          'service_h6vfe2t',
-          'template_m519wm6',
-          toSend,
-          'user_X8kHVVh3FSqfD33H629kx'
-        )
-          .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-          })
-          .catch((err) => {
-            console.log('FAILED...', err);
-          });
-      };
-
-      const handleChange = (e) => {
-        setToSend({ ...toSend, [e.target.name]: e.target.value });
-      };
     
   return (
     <div className="grid grid-cols-12 text-center text-xl font-bold">
