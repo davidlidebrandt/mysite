@@ -63,7 +63,7 @@ export default function Teach() {
         </div>
       </div>
       <div className="col-span-12 md:col-span-10 md:col-start-2  w-full  xl:col-span-4 m-auto mt-0">
-        <div className="bg-white mt-20 m-auto rounded relative min-height-550 transform xl:scale-95 xl:hover:scale-105 hover:scale-90 hover:rotate-0 transition-all duration-700 shadow-2xl">
+        <div className="bg-white mt-20 m-auto rounded relative min-height-550 transform xl:scale-95 xl:hover:scale-105 hover:scale-105 hover:rotate-0 transition-all duration-700 shadow-2xl">
         <h4 className="text-2xl py-4 font-extrabold">Frameworks</h4>
         <div className="center-absolute-xy top-12 z-50 font-bold">
           <p className="text-2xl my-8">
