@@ -82,7 +82,7 @@ export default function Header() {
             <NavLink
               onClick={toggleNav}
               exact
-              to="/"
+              to="/mysite"
               className="my-4 px-5 py-4 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block"
               activeClassName="custom-underline"
             >
@@ -90,7 +90,7 @@ export default function Header() {
             </NavLink>
             <NavLink
               onClick={toggleNav}
-              to="/aboutme"
+              to="/mysite/aboutme"
               className="my-4 px-5 py-4 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block"
               activeClassName="custom-underline"
             >
@@ -98,7 +98,7 @@ export default function Header() {
             </NavLink>
             <NavLink
               onClick={toggleNav}
-              to="/techstack"
+              to="/mysite/techstack"
               className="my-4 px-5 py-4 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block"
               activeClassName="custom-underline"
             >
@@ -106,7 +106,7 @@ export default function Header() {
             </NavLink>
             <NavLink
               onClick={toggleNav}
-              to="/projects"
+              to="/mysite/projects"
               className="my-4 px-5 py-4 rounded border-4 border-transparent hover:border-yellow-100 relative w-max m-auto block"
               activeClassName="custom-underline"
             >
