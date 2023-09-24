@@ -31,16 +31,16 @@ function App() {
        
       <div className="bg-image min-h-screen p-2 md:x-10 xl:mx-36 custom-box-shadow-2 xl:px-10">  
       <Switch>
-        <Route path="/" exact>
+        <Route path="/mysite/" exact>
           <Home linkToMessage={linkToMessage} setLinkToMessage={setLinkToMessage}></Home>
         </Route>
-        <Route path="/projects">
+        <Route path="/mysite/projects">
           <Projects></Projects>
         </Route>
-        <Route path="/aboutme">
+        <Route path="/mysite/aboutme">
           <About></About>
         </Route>
-        <Route path="/techstack">
+        <Route path="/mysite/techstack">
           <Teach></Teach>
         </Route>
         </Switch>

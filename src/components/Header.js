@@ -19,7 +19,7 @@ export default function Header() {
     <header className="bg-white grid grid-cols-1 items-center py-10 shadow-xl">
       <nav id="main-nav" className="grid grid-cols-4 items-center">
         <NavLink  exact
-            to="/" className="block col-span-2 lg:col-span-1">
+            to="/mysite" className="block col-span-2 lg:col-span-1">
           <h2 className="text-3xl ml-5">
             <span className="text-4xl font-extrabold">David</span>{" "}
             <span className="font-semibold">Lidebrandt</span>
@@ -31,28 +31,28 @@ export default function Header() {
         <div className="col-span-3 text-lg font-bold text-right mr-3 hidden xl:block">
           <NavLink
             exact
-            to="/"
+            to="/mysite"
             className="mx-5 py-4 px-5 rounded border-4 border-transparent relative"
             activeClassName="custom-underline"
           >
             Home
           </NavLink>
           <NavLink
-            to="/aboutme"
+            to="/mysite/aboutme"
             className="mx-5 py-4 px-5 rounded border-4 border-transparent relative"
             activeClassName="custom-underline"
           >
             About me
           </NavLink>
           <NavLink
-            to="/techstack"
+            to="/mysite/techstack"
             className="mx-5 py-4 px-5 rounded border-4 border-transparent relative"
             activeClassName="custom-underline"
           >
             Technologies
           </NavLink>
           <NavLink
-            to="/projects"
+            to="/mysite/projects"
             className="mx-5 py-4 px-5 rounded border-4 border-transparent relative"
             activeClassName="custom-underline"
           >
